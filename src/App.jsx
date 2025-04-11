@@ -15,7 +15,7 @@ function App() {
     setResult('');
 
     try {
-      const response = await axios.post('https://your-api-url.onrender.com/generate-trip', {
+      const response = await axios.post('https://trip-planner-api-quag.onrender.com', {
         startCity,
         endCity,
         numDays,
